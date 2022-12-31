@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component
 
-![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
+<img src='./design/my-design-desktop.png' alt='Design preview for the Product preview card component coding challenge'>
 
 ## Welcome! 👋
 
