@@ -173,7 +173,7 @@ footer a:last-child {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 400px;
+    height: 450px;
     width: 600px;
   }
   .image {
