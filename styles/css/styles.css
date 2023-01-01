@@ -173,7 +173,7 @@ footer a:last-child {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    height: 450px;
+    height: 430px;
     width: 600px;
   }
   .image {
@@ -191,6 +191,7 @@ footer a:last-child {
   }
   p {
     font-size: 0.9em;
+    line-height: 1.6;
   }
   .price__section {
     margin-bottom: 1.3rem;
