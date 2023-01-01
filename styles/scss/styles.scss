@@ -18,12 +18,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .view__desktop {
     display: none;
 }
 
-.card {
+main {
     display: flex;
     flex-direction: column;
     background: hsl(0, 0%, 100%);
@@ -55,7 +56,7 @@ body {
     margin-bottom: 0.8rem;
     color: hsl(228, 12%, 48%);
 }
-h2 {
+h1 {
     font: 600 2em var(--font-fraunces);
     letter-spacing: 1.1px;
     color: #000;
@@ -98,17 +99,18 @@ p {
     margin-bottom: 0.5rem;
 }
 
-.attribution {
+footer {
     font-size: 11px;
-    text-align: center;
     margin: auto;
+    bottom: 10px;
+    position: absolute;
     font: 450 0.8em var(--font-montserrat);
 }
-.attribution a {
+footer a {
     color: hsl(228, 45%, 44%);
     font-family: var(--font-fraunces);
 }
-.attribution a:last-child {
+footer a:last-child {
     text-decoration: none;
     font-weight: 600;
     color: hsl(158, 36%, 37%);
@@ -121,7 +123,7 @@ p {
     .view__desktop {
         display: block;
     }
-    .card {
+    main {
         flex-direction: row;
         height: 400px;
         width: 600px;
@@ -149,9 +151,5 @@ p {
     .btn:hover,
     .btn:active {
         background-color: hsl(158, 36%, 30%);
-    }
-    .attribution {
-        margin-top: auto;
-        margin-bottom: 0;
     }
 }

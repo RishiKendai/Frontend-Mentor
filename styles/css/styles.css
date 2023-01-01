@@ -26,13 +26,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .view__desktop {
   display: none;
 }
 
-.card {
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,7 +84,7 @@ body {
   color: #6c7289;
 }
 
-h2 {
+h1 {
   font: 600 2em var(--font-fraunces);
   letter-spacing: 1.1px;
   color: #000;
@@ -139,19 +142,20 @@ p {
   margin-bottom: 0.5rem;
 }
 
-.attribution {
+footer {
   font-size: 11px;
-  text-align: center;
   margin: auto;
+  bottom: 10px;
+  position: absolute;
   font: 450 0.8em var(--font-montserrat);
 }
 
-.attribution a {
+footer a {
   color: #3e52a3;
   font-family: var(--font-fraunces);
 }
 
-.attribution a:last-child {
+footer a:last-child {
   text-decoration: none;
   font-weight: 600;
   color: #3c8067;
@@ -164,7 +168,7 @@ p {
   .view__desktop {
     display: block;
   }
-  .card {
+  main {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -200,10 +204,6 @@ p {
   .btn:hover,
   .btn:active {
     background-color: #316854;
-  }
-  .attribution {
-    margin-top: auto;
-    margin-bottom: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */
