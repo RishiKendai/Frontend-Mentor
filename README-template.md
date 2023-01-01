@@ -11,8 +11,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/my-design-desktop.png)
-![](./design/my-design-mobile.png)
+![](./design/Frontend%20Mentor%20Product%20preview%20card%20component.png)
 
 ### Links
 

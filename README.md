@@ -14,4 +14,4 @@ Your challenge is to build out this product preview card component and get it lo
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-[View Site](https://rishikendai.github.io/product-preview-card/)
+[View Site](https://product-preview-card-ivory.vercel.app/)
